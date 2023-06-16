@@ -1,0 +1,1430 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:546:9-554:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:546:9-554:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:546:9-554:20
+	android:grantUriPermissions
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:550:13-47
+	android:authorities
+		INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:548:13-71
+	android:exported
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:549:13-37
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:547:13-62
+manifest
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:2:1-714:12
+INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:2:1-714:12
+INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:2:1-714:12
+INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:2:1-714:12
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:2:1-714:12
+MERGED from [com.github.denzcoskun:ImageSlideshow:0.1.2] C:\Users\yerzh\.gradle\caches\transforms-3\c8abaa011f60a733f4da6f09dac88b17\transformed\jetified-ImageSlideshow-0.1.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\yerzh\.gradle\caches\transforms-3\a34ddd15205f8f5060623f81874c7cb1\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\yerzh\.gradle\caches\transforms-3\4cbea4d868db074f004d3609b99b545e\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\yerzh\.gradle\caches\transforms-3\93c21dd58fcb7eb1406d2c59cca8a2f0\transformed\preference-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.jaredrummler:colorpicker:1.0.2] C:\Users\yerzh\.gradle\caches\transforms-3\f0d8f7aeab1fc3e21ff8accd35af6b45\transformed\jetified-colorpicker-1.0.2\AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.wax911:android-emojify:0.1.7] C:\Users\yerzh\.gradle\caches\transforms-3\5c741e4ef5e824cb6ab9b6e786069847\transformed\jetified-android-emojify-0.1.7\AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\yerzh\.gradle\caches\transforms-3\7597d48dcc2e488f841fe1e240533d52\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\1fc0c7a562471e961979cbd29a371df4\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\641f1d1b718a7f49754a7e9bdcd36ef9\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\yerzh\.gradle\caches\transforms-3\542aeba9af702b3a3f95a9709bbd5236\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\950d8782039698a818198f726207453c\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\3ee7d10fac2563c6bd508ea16e4a9d78\transformed\gridlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\efd05f550c682d4243bda473ad59f2a2\transformed\palette-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\5e095aaf2ed4bbcb54b595176b37ca32\transformed\jetified-flexbox-3.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [no.nordicsemi.android:dfu:1.11.1] C:\Users\yerzh\.gradle\caches\transforms-3\0cfeb4a86d68bfac6d3cc2d084f9c8be\transformed\jetified-dfu-1.11.1\AndroidManifest.xml:2:1-15:12
+MERGED from [com.github.tony19:logback-android:2.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\cf8f30b78e06e1f9ee4ba1d99d825e3a\transformed\jetified-logback-android-2.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\yerzh\.gradle\caches\transforms-3\0954182ff1a3103ab3afa8bada7a4e3e\transformed\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:2:1-20:12
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.2] C:\Users\yerzh\.gradle\caches\transforms-3\eeb3f8d7304fe9115d781a841c56876c\transformed\jetified-ckchangelog-1.2.2\AndroidManifest.xml:2:1-11:12
+MERGED from [org.cyanogenmod:platform.sdk:6.0] C:\Users\yerzh\.gradle\caches\transforms-3\b0aa3b2da3475537a577e47ad33346ce\transformed\jetified-platform.sdk-6.0\AndroidManifest.xml:19:1-22:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\yerzh\.gradle\caches\transforms-3\d6064c9e31b4a83fb1b1870673b423b3\transformed\jetified-volley-1.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.0] C:\Users\yerzh\.gradle\caches\transforms-3\a1d025e0c37114e99725892dd42eddc0\transformed\jetified-threetenabp-1.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\yerzh\.gradle\caches\transforms-3\301f7768c885b3501fe54c09d65130c6\transformed\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\yerzh\.gradle\caches\transforms-3\f33f7511f48d67f0d60803a446c01538\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\yerzh\.gradle\caches\transforms-3\281b769d792530df614a88215eb572a6\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\yerzh\.gradle\caches\transforms-3\b418db55a7d9510c71c32afebaf44629\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\39985aff5f8d6a483cd1d4b996aaf363\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\a087392b4a91cd8a736ae7e4b3c4ed95\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\yerzh\.gradle\caches\transforms-3\f75161528fbc8ca01f6ac8509c311b85\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\1c22d86435ff62dd781b15544adf0980\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\3dbcb79667afae187843add25a0f405c\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\a4421b541e1b5a0fc214cbcbfeda0277\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\a9d830c2d6c42295495dffdcee092f9f\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\705388fdcc7e90367e60ce25ac4dff68\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\a10a7d1ec5fb587d59f7407e5b09283e\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\yerzh\.gradle\caches\transforms-3\a3bad7a95e759f17b921ec5f045e0bc0\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\yerzh\.gradle\caches\transforms-3\0025140b346a84aa58c5f58c588269cd\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\yerzh\.gradle\caches\transforms-3\a07f413101ad874b10e873f257b841ae\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\43e481825934cfdb0578b2897e70bb06\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\e56e61a83767d11ad2e077ff08c60597\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\e61a002b9b704557486ea83d0303cd7e\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] C:\Users\yerzh\.gradle\caches\transforms-3\88376b3bcbc059c61174eb85719947e9\transformed\core-1.5.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\8d8189a55c9eadac6a9342ef162bf9f2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\yerzh\.gradle\caches\transforms-3\d7b2f29f161ba2a2fbd7b70aec2773fd\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\yerzh\.gradle\caches\transforms-3\8ba488d03058f642786ce933288e6a19\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\yerzh\.gradle\caches\transforms-3\dc08d83b707448e038113551993a7c04\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\yerzh\.gradle\caches\transforms-3\3e41c935f71087694e892cd2e3ea27ae\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\84b0ebc928b2eda34e79c0e5e33781b5\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\c3df13bf736dfdff3d98ef4f73ceb433\transformed\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yerzh\.gradle\caches\transforms-3\2f222b1e6a840af84a52c92641bc9bed\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\f1dec1ed3b35f9a666ca9665ac6896e8\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\fe98e75b6d37bb4a071e8a5b284afdfa\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\yerzh\.gradle\caches\transforms-3\1c4e2858848767324bdfafe9822c77ea\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\yerzh\.gradle\caches\transforms-3\94ff50331fd911bfd9388f641d7287fb\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\7eb0714211200ce4487975f1ad8426dc\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\ee7c09a246a11af5bbf64d15922cb962\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\07171e0f299e0c797433e03cd433cd69\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\cfc0af64345a8d6bc536dc1cd1ac7e87\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:2:1-714:12
+INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:2:1-714:12
+INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:2:1-714:12
+	package
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:4:5-51
+		INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:2:1-714:12
+		INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:2:1-714:12
+		INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:11:5-68
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:11:5-68
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:11:5-68
+MERGED from [no.nordicsemi.android:dfu:1.11.1] C:\Users\yerzh\.gradle\caches\transforms-3\0cfeb4a86d68bfac6d3cc2d084f9c8be\transformed\jetified-dfu-1.11.1\AndroidManifest.xml:11:5-68
+MERGED from [no.nordicsemi.android:dfu:1.11.1] C:\Users\yerzh\.gradle\caches\transforms-3\0cfeb4a86d68bfac6d3cc2d084f9c8be\transformed\jetified-dfu-1.11.1\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:12:5-74
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:12:5-74
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:12:5-74
+MERGED from [no.nordicsemi.android:dfu:1.11.1] C:\Users\yerzh\.gradle\caches\transforms-3\0cfeb4a86d68bfac6d3cc2d084f9c8be\transformed\jetified-dfu-1.11.1\AndroidManifest.xml:12:5-74
+MERGED from [no.nordicsemi.android:dfu:1.11.1] C:\Users\yerzh\.gradle\caches\transforms-3\0cfeb4a86d68bfac6d3cc2d084f9c8be\transformed\jetified-dfu-1.11.1\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:12:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:13:5-81
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:13:5-81
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:16:5-79
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:16:5-79
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:17:5-85
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:17:5-85
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:17:5-85
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:17:22-82
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:19:5-72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:19:5-72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:19:5-72
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:19:22-69
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:20:5-75
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:20:5-75
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:20:22-72
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:21:5-81
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:21:5-81
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:21:22-78
+uses-permission#android.permission.ACCESS_NOTIFICATION_POLICY
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:22:5-85
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:22:5-85
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:22:5-85
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:22:22-82
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:23:5-69
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:23:5-69
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:23:5-69
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:23:22-66
+uses-permission#android.permission.ANSWER_PHONE_CALLS
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:24:5-77
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:24:5-77
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:24:5-77
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:24:22-74
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:25:5-70
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:25:5-70
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:25:5-70
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:25:22-67
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:26:5-67
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:26:5-67
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:26:22-64
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:27:5-72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:27:5-72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:27:5-72
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:27:22-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:29:5-80
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:29:5-80
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:29:5-80
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:29:22-77
+uses-permission#android.permission.READ_CALENDAR
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:30:5-72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:30:5-72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:30:5-72
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:30:22-69
+uses-permission#android.permission.MEDIA_CONTENT_CONTROL
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:31:5-33:47
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:31:5-33:47
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:31:5-33:47
+	tools:ignore
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:33:9-44
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:32:9-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:36:5-81
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:36:5-81
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:36:5-81
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:36:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:37:5-77
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:37:5-77
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:37:5-77
+MERGED from [no.nordicsemi.android:dfu:1.11.1] C:\Users\yerzh\.gradle\caches\transforms-3\0cfeb4a86d68bfac6d3cc2d084f9c8be\transformed\jetified-dfu-1.11.1\AndroidManifest.xml:13:5-77
+MERGED from [no.nordicsemi.android:dfu:1.11.1] C:\Users\yerzh\.gradle\caches\transforms-3\0cfeb4a86d68bfac6d3cc2d084f9c8be\transformed\jetified-dfu-1.11.1\AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:37:22-74
+uses-permission#android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:38:5-94
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:38:5-94
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:38:5-94
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:38:22-91
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:41:5-66
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:41:5-66
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:41:5-66
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:41:22-63
+uses-permission#cyanogenmod.permission.ACCESS_WEATHER_MANAGER
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:44:5-85
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:44:5-85
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:44:5-85
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:44:22-82
+uses-permission#cyanogenmod.permission.READ_WEATHER
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:45:5-75
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:45:5-75
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:45:5-75
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:45:22-72
+uses-permission#lineageos.permission.ACCESS_WEATHER_MANAGER
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:46:5-83
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:46:5-83
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:46:22-80
+uses-permission#lineageos.permission.READ_WEATHER
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:47:5-73
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:47:5-73
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:47:5-73
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:47:22-70
+uses-permission#org.omnirom.omnijaws.READ_WEATHER
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:48:5-73
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:48:5-73
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:48:5-73
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:48:22-70
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:51:5-78
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:51:5-78
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:51:5-78
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:51:22-75
+uses-feature#android.hardware.bluetooth
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:53:5-55:35
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:53:5-55:35
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:53:5-55:35
+	android:required
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:55:9-32
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:54:9-50
+uses-feature#android.hardware.bluetooth_le
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:56:5-58:36
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:56:5-58:36
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:56:5-58:36
+	android:required
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:58:9-33
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:57:9-53
+uses-feature#android.hardware.telephony
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:59:5-61:36
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:59:5-61:36
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:59:5-61:36
+	android:required
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:61:9-33
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:60:9-50
+uses-feature#android.software.companion_device_setup
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:62:5-64:36
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:62:5-64:36
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:62:5-64:36
+	android:required
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:64:9-33
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:63:9-63
+application
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:66:5-712:19
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:66:5-712:19
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:66:5-712:19
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\yerzh\.gradle\caches\transforms-3\a34ddd15205f8f5060623f81874c7cb1\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\yerzh\.gradle\caches\transforms-3\a34ddd15205f8f5060623f81874c7cb1\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\yerzh\.gradle\caches\transforms-3\4cbea4d868db074f004d3609b99b545e\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\yerzh\.gradle\caches\transforms-3\4cbea4d868db074f004d3609b99b545e\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.wax911:android-emojify:0.1.7] C:\Users\yerzh\.gradle\caches\transforms-3\5c741e4ef5e824cb6ab9b6e786069847\transformed\jetified-android-emojify-0.1.7\AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.wax911:android-emojify:0.1.7] C:\Users\yerzh\.gradle\caches\transforms-3\5c741e4ef5e824cb6ab9b6e786069847\transformed\jetified-android-emojify-0.1.7\AndroidManifest.xml:11:5-14:19
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.2] C:\Users\yerzh\.gradle\caches\transforms-3\eeb3f8d7304fe9115d781a841c56876c\transformed\jetified-ckchangelog-1.2.2\AndroidManifest.xml:9:5-20
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.2] C:\Users\yerzh\.gradle\caches\transforms-3\eeb3f8d7304fe9115d781a841c56876c\transformed\jetified-ckchangelog-1.2.2\AndroidManifest.xml:9:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.0] C:\Users\yerzh\.gradle\caches\transforms-3\a1d025e0c37114e99725892dd42eddc0\transformed\jetified-threetenabp-1.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.0] C:\Users\yerzh\.gradle\caches\transforms-3\a1d025e0c37114e99725892dd42eddc0\transformed\jetified-threetenabp-1.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\yerzh\.gradle\caches\transforms-3\301f7768c885b3501fe54c09d65130c6\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\yerzh\.gradle\caches\transforms-3\301f7768c885b3501fe54c09d65130c6\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.core:core:1.5.0] C:\Users\yerzh\.gradle\caches\transforms-3\88376b3bcbc059c61174eb85719947e9\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] C:\Users\yerzh\.gradle\caches\transforms-3\88376b3bcbc059c61174eb85719947e9\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yerzh\.gradle\caches\transforms-3\2f222b1e6a840af84a52c92641bc9bed\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yerzh\.gradle\caches\transforms-3\2f222b1e6a840af84a52c92641bc9bed\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:73:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] C:\Users\yerzh\.gradle\caches\transforms-3\88376b3bcbc059c61174eb85719947e9\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from [com.github.wax911:android-emojify:0.1.7] C:\Users\yerzh\.gradle\caches\transforms-3\5c741e4ef5e824cb6ab9b6e786069847\transformed\jetified-android-emojify-0.1.7\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:71:9-41
+		REJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:71:9-41
+		REJECTED from [com.github.wax911:android-emojify:0.1.7] C:\Users\yerzh\.gradle\caches\transforms-3\5c741e4ef5e824cb6ab9b6e786069847\transformed\jetified-android-emojify-0.1.7\AndroidManifest.xml:12:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:69:9-42
+	android:roundIcon
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:72:9-54
+	android:icon
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:70:9-43
+	android:allowBackup
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:68:9-36
+	android:theme
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:74:9-49
+	tools:replace
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:75:9-38
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:67:9-38
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:76:9-88:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:76:9-88:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:76:9-88:20
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:78:13-65
+	android:launchMode
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:80:13-43
+	android:theme
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:79:13-47
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:77:13-55
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:81:13-87:29
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:82:17-76
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:82:27-73
+action#android.intent.action.MAIN
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:84:17-69
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:84:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:86:17-77
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:86:27-74
+activity#nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:89:9-92:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:89:9-92:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:89:9-92:72
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:92:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:91:13-60
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:90:13-56
+activity#nodomain.freeyourgadget.gadgetbridge.activities.AboutUserPreferencesActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:93:9-96:85
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:93:9-96:85
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:93:9-96:85
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:96:13-82
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:95:13-61
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:94:13-68
+activity#nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsPreferencesActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:97:9-100:89
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:97:9-100:89
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:97:9-100:89
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:100:13-86
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:99:13-58
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:98:13-72
+activity#nodomain.freeyourgadget.gadgetbridge.activities.DiscoveryPairingPreferenceActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:101:9-104:73
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:101:9-104:73
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:101:9-104:73
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:104:13-70
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:103:13-69
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:102:13-74
+activity#nodomain.freeyourgadget.gadgetbridge.devices.miband.MiBandPreferencesActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:105:9-108:73
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:105:9-108:73
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:105:9-108:73
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:108:13-70
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:107:13-64
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:106:13-69
+activity#nodomain.freeyourgadget.gadgetbridge.devices.zetime.ZeTimePreferenceActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:109:9-112:73
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:109:9-112:73
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:109:9-112:73
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:112:13-70
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:111:13-58
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:110:13-68
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummariesActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:113:9-116:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:113:9-116:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:113:9-116:72
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:116:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:115:13-55
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:114:13-65
+activity#nodomain.freeyourgadget.gadgetbridge.activities.appmanager.AppManagerActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:117:9-121:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:117:9-121:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:117:9-121:72
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:121:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:119:13-62
+	android:launchMode
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:120:13-43
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:118:13-69
+activity#nodomain.freeyourgadget.gadgetbridge.activities.AppBlacklistActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:122:9-125:73
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:122:9-125:73
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:122:9-125:73
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:125:13-70
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:124:13-75
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:123:13-60
+activity#nodomain.freeyourgadget.gadgetbridge.activities.CalBlacklistActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:126:9-129:73
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:126:9-129:73
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:126:9-129:73
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:129:13-70
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:128:13-64
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:127:13-60
+activity#nodomain.freeyourgadget.gadgetbridge.devices.vesc.VescControlActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:130:9-133:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:130:9-133:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:130:9-133:72
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:133:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:132:13-52
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:131:13-61
+activity#nodomain.freeyourgadget.gadgetbridge.activities.FwAppInstallerActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:134:9-335:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:134:9-335:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:134:9-335:20
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:137:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:136:13-67
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:135:13-62
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\.ft+data:pathPattern:/.*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\.fw+data:pathPattern:/.*\\..*\\.gps+data:pathPattern:/.*\\..*\\.pbl+data:pathPattern:/.*\\..*\\.pbw+data:pathPattern:/.*\\..*\\.pbz+data:pathPattern:/.*\\..*\\.res+data:pathPattern:/.*\\.ft+data:pathPattern:/.*\\.ft.en+data:pathPattern:/.*\\.fw+data:pathPattern:/.*\\.gps+data:pathPattern:/.*\\.pbl+data:pathPattern:/.*\\.pbw+data:pathPattern:/.*\\.pbz+data:pathPattern:/.*\\.res+data:scheme:file
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:138:13-231:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:139:17-69
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:139:25-66
+data
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+	android:host
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:146:23-39
+	android:scheme
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:147:23-44
+	android:pathPattern
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+	android:mimeType
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:23-45
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:host:*+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\.ft+data:pathPattern:/.*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\.fw+data:pathPattern:/.*\\..*\\.gps+data:pathPattern:/.*\\..*\\.pbl+data:pathPattern:/.*\\..*\\.pbw+data:pathPattern:/.*\\..*\\.pbz+data:pathPattern:/.*\\..*\\.res+data:pathPattern:/.*\\.ft+data:pathPattern:/.*\\.ft.en+data:pathPattern:/.*\\.fw+data:pathPattern:/.*\\.gps+data:pathPattern:/.*\\.pbl+data:pathPattern:/.*\\.pbw+data:pathPattern:/.*\\.pbz+data:pathPattern:/.*\\.res+data:scheme:file
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:232:13-324:29
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:328:13-334:29
+action#android.intent.action.SEND
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:329:17-69
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:329:25-66
+service#nodomain.freeyourgadget.gadgetbridge.externalevents.NotificationListener
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:337:9-344:19
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:337:9-344:19
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:337:9-344:19
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:339:13-45
+	android:permission
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:340:13-87
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:338:13-64
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:341:13-343:29
+action#android.service.notification.NotificationListenerService
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:342:17-99
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:342:25-96
+service#nodomain.freeyourgadget.gadgetbridge.service.NotificationCollectorMonitorService
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:345:9-80
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:345:9-80
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:345:9-80
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:345:18-77
+service#nodomain.freeyourgadget.gadgetbridge.service.DeviceCommunicationService
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:346:9-71
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:346:9-71
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:346:9-71
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:346:18-68
+service#nodomain.freeyourgadget.gadgetbridge.devices.pinetime.PineTimeDFUService
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:347:9-349:59
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:347:9-349:59
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:347:9-349:59
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:349:13-56
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:348:13-64
+receiver#nodomain.freeyourgadget.gadgetbridge.externalevents.GenericWeatherReceiver
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:351:9-357:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:351:9-357:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:351:9-357:20
+	android:enabled
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:353:13-35
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:352:13-66
+intent-filter#action:name:nodomain.freeyourgadget.gadgetbridge.ACTION_GENERIC_WEATHER
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:354:13-356:29
+action#nodomain.freeyourgadget.gadgetbridge.ACTION_GENERIC_WEATHER
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:355:17-102
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:355:25-99
+receiver#nodomain.freeyourgadget.gadgetbridge.externalevents.WeatherNotificationReceiver
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:359:9-365:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:359:9-365:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:359:9-365:20
+	android:enabled
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:361:13-35
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:360:13-71
+intent-filter#action:name:ru.gelin.android.weather.notification.ACTION_WEATHER_UPDATE_2
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:362:13-364:29
+action#ru.gelin.android.weather.notification.ACTION_WEATHER_UPDATE_2
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:363:17-104
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:363:25-101
+activity#nodomain.freeyourgadget.gadgetbridge.externalevents.WeatherNotificationConfig
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:367:9-371:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:367:9-371:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:367:9-371:20
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:367:19-75
+intent-filter#action:name:ru.gelin.android.weather.notification.ACTION_WEATHER_SKIN_PREFERENCES
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:368:13-370:29
+action#ru.gelin.android.weather.notification.ACTION_WEATHER_SKIN_PREFERENCES
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:369:17-112
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:369:25-109
+receiver#nodomain.freeyourgadget.gadgetbridge.externalevents.AutoStartReceiver
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:373:9-381:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:373:9-381:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:373:9-381:20
+	android:permission
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:375:13-75
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:374:13-61
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:376:13-380:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:377:17-79
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:377:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:379:17-83
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:379:25-81
+receiver#nodomain.freeyourgadget.gadgetbridge.externalevents.BluetoothStateChangeReceiver
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:383:9-395:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:383:9-395:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:383:9-395:20
+	android:exported
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:385:13-36
+	android:permission
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:386:13-97
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:384:13-72
+intent-filter#action:name:android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED+action:name:android.bluetooth.adapter.action.STATE_CHANGED+action:name:android.bluetooth.device.action.ACL_CONNECTED+action:name:android.bluetooth.device.action.ACL_DISCONNECTED+action:name:android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:387:13-394:29
+action#android.bluetooth.adapter.action.STATE_CHANGED
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:388:17-89
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:388:25-86
+action#android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:389:17-100
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:389:25-97
+action#android.bluetooth.device.action.ACL_CONNECTED
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:391:17-88
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:391:25-85
+action#android.bluetooth.device.action.ACL_DISCONNECTED
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:392:17-91
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:392:25-88
+action#android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:393:17-99
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:393:25-96
+receiver#nodomain.freeyourgadget.gadgetbridge.service.receivers.GBMusicControlReceiver
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:397:9-403:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:397:9-403:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:397:9-403:20
+	android:exported
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:399:13-37
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:398:13-69
+intent-filter#action:name:nodomain.freeyourgadget.gadgetbridge.musiccontrol
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:400:13-402:29
+action#nodomain.freeyourgadget.gadgetbridge.musiccontrol
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:401:17-92
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:401:25-89
+receiver#nodomain.freeyourgadget.gadgetbridge.service.receivers.GBCallControlReceiver
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:404:9-410:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:404:9-410:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:404:9-410:20
+	android:exported
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:406:13-37
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:405:13-68
+intent-filter#action:name:nodomain.freeyourgadget.gadgetbridge.callcontrol
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:407:13-409:29
+action#nodomain.freeyourgadget.gadgetbridge.callcontrol
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:408:17-91
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:408:25-88
+receiver#nodomain.freeyourgadget.gadgetbridge.database.PeriodicExporter
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:411:9-414:40
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:411:9-414:40
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:411:9-414:40
+	android:enabled
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:413:13-35
+	android:exported
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:414:13-37
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:412:13-54
+activity#nodomain.freeyourgadget.gadgetbridge.activities.DebugActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:419:9-424:57
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:419:9-424:57
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:419:9-424:57
+	android:screenOrientation
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:423:13-49
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:422:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:421:13-57
+	android:windowSoftInputMode
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:424:13-54
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:420:13-53
+activity#nodomain.freeyourgadget.gadgetbridge.activities.AboutActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:425:9-429:57
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:425:9-429:57
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:425:9-429:57
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:428:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:427:13-57
+	android:windowSoftInputMode
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:429:13-54
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:426:13-53
+activity#nodomain.freeyourgadget.gadgetbridge.activities.OpenFwAppInstallerActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:430:9-434:57
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:430:9-434:57
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:430:9-434:57
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:433:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:432:13-70
+	android:windowSoftInputMode
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:434:13-54
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:431:13-66
+activity#nodomain.freeyourgadget.gadgetbridge.activities.BatteryInfoActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:435:9-438:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:435:9-438:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:435:9-438:72
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:438:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:437:13-66
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:436:13-59
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummaryDetail
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:440:9-444:57
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:440:9-444:57
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:440:9-444:57
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:443:13-79
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:442:13-60
+	android:windowSoftInputMode
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:444:13-54
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:441:13-61
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummariesFilter
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:445:9-449:48
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:445:9-449:48
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:445:9-449:48
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:448:13-79
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:447:13-65
+	android:excludeFromRecents
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:449:13-46
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:446:13-63
+activity#nodomain.freeyourgadget.gadgetbridge.activities.DataManagementActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:451:9-455:57
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:451:9-455:57
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:451:9-455:57
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:454:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:453:13-65
+	android:windowSoftInputMode
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:455:13-54
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:452:13-62
+activity#nodomain.freeyourgadget.gadgetbridge.activities.NotificationManagementActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:456:9-460:57
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:456:9-460:57
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:456:9-460:57
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:459:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:458:13-75
+	android:windowSoftInputMode
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:460:13-54
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:457:13-70
+activity#nodomain.freeyourgadget.gadgetbridge.activities.DiscoveryActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:461:9-464:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:461:9-464:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:461:9-464:72
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:464:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:463:13-61
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:462:13-57
+activity#nodomain.freeyourgadget.gadgetbridge.activities.AndroidPairingActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:465:9-467:70
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:465:9-467:70
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:465:9-467:70
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:467:13-67
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:466:13-62
+activity#nodomain.freeyourgadget.gadgetbridge.devices.banglejs.AppsManagementActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:468:9-472:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:468:9-472:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:468:9-472:72
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:472:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:470:13-62
+	android:launchMode
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:471:13-43
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:469:13-68
+activity#nodomain.freeyourgadget.gadgetbridge.devices.miband.MiBandPairingActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:473:9-475:70
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:473:9-475:70
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:473:9-475:70
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:475:13-67
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:474:13-65
+activity#nodomain.freeyourgadget.gadgetbridge.devices.pebble.PebblePairingActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:476:9-478:69
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:476:9-478:69
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:476:9-478:69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:478:13-66
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:477:13-65
+activity#nodomain.freeyourgadget.gadgetbridge.devices.watch9.Watch9PairingActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:479:9-481:69
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:479:9-481:69
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:479:9-481:69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:481:13-66
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:480:13-65
+activity#nodomain.freeyourgadget.gadgetbridge.devices.watch9.Watch9CalibrationActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:482:9-484:73
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:482:9-484:73
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:482:9-484:73
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:484:13-70
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:483:13-69
+activity#nodomain.freeyourgadget.gadgetbridge.devices.lenovo.LenovoWatchPairingActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:485:9-487:69
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:485:9-487:69
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:485:9-487:69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:487:13-66
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:486:13-70
+activity#nodomain.freeyourgadget.gadgetbridge.devices.lenovo.LenovoWatchCalibrationActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:488:9-490:78
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:488:9-490:78
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:488:9-490:78
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:490:13-75
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:489:13-74
+activity#nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:491:9-494:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:491:9-494:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:491:9-494:72
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:494:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:493:13-58
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:492:13-61
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ConfigureAlarms
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:495:9-498:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:495:9-498:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:495:9-498:72
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:498:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:497:13-61
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:496:13-55
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ConfigureReminders
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:499:9-502:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:499:9-502:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:499:9-502:72
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:502:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:501:13-65
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:500:13-58
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ConfigureWorldClocks
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:503:9-506:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:503:9-506:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:503:9-506:72
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:506:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:505:13-60
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:504:13-60
+activity#nodomain.freeyourgadget.gadgetbridge.activities.devicesettings.DeviceSettingsActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:507:9-510:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:507:9-510:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:507:9-510:72
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:510:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:509:13-76
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:508:13-77
+activity#nodomain.freeyourgadget.gadgetbridge.activities.AlarmDetails
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:511:9-515:52
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:511:9-515:52
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:511:9-515:52
+	android:screenOrientation
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:515:13-49
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:514:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:513:13-65
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:512:13-52
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ReminderDetails
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:516:9-521:58
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:516:9-521:58
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:516:9-521:58
+	android:screenOrientation
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:520:13-49
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:519:13-72
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:518:13-68
+	android:windowSoftInputMode
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:521:13-55
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:517:13-55
+activity#nodomain.freeyourgadget.gadgetbridge.activities.WorldClockDetails
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:522:9-527:58
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:522:9-527:58
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:522:9-527:58
+	android:screenOrientation
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:526:13-49
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:525:13-74
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:524:13-71
+	android:windowSoftInputMode
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:527:13-55
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:523:13-57
+activity#nodomain.freeyourgadget.gadgetbridge.activities.VibrationActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:528:9-531:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:528:9-531:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:528:9-531:72
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:531:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:530:13-61
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:529:13-57
+activity#nodomain.freeyourgadget.gadgetbridge.activities.NotificationFilterActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:532:9-536:67
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:532:9-536:67
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:532:9-536:67
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:535:13-74
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:534:13-71
+	android:windowSoftInputMode
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:536:13-64
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:533:13-66
+activity#nodomain.freeyourgadget.gadgetbridge.activities.FindPhoneActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:537:9-539:42
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:537:9-539:42
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:537:9-539:42
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:539:13-39
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:538:13-57
+provider#nodomain.freeyourgadget.gadgetbridge.contentprovider.PebbleContentProvider
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:541:9-544:39
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:541:9-544:39
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:541:9-544:39
+	android:authorities
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:543:13-66
+	android:exported
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:544:13-36
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:542:13-66
+receiver#nodomain.freeyourgadget.gadgetbridge.SleepAlarmWidget
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:556:9-567:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:556:9-567:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:556:9-567:20
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:558:13-71
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:557:13-45
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:nodomain.freeyourgadget.gadgetbridge.SLEEP_ALARM_WIDGET_CLICK
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:559:13-562:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:560:17-84
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:560:25-81
+action#nodomain.freeyourgadget.gadgetbridge.SLEEP_ALARM_WIDGET_CLICK
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:561:17-104
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:561:25-101
+meta-data#android.appwidget.provider
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:564:13-566:67
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:564:13-566:67
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:564:13-566:67
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:578:13-580:55
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:578:13-580:55
+	android:resource
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:566:17-64
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:565:17-58
+receiver#nodomain.freeyourgadget.gadgetbridge.Widget
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:568:9-581:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:568:9-581:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:568:9-581:20
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:570:13-57
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:569:13-35
+intent-filter#action:name:android.appwidget.action.APPWIDGET_DELETED+action:name:android.appwidget.action.APPWIDGET_DISABLED+action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:nodomain.freeyourgadget.gadgetbridge.WidgetClick
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:571:13-576:29
+action#android.appwidget.action.APPWIDGET_DELETED
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:573:17-85
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:573:25-82
+action#android.appwidget.action.APPWIDGET_DISABLED
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:574:17-86
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:574:25-83
+action#nodomain.freeyourgadget.gadgetbridge.WidgetClick
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:575:17-91
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:575:25-88
+activity#nodomain.freeyourgadget.gadgetbridge.activities.WidgetAlarmsActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:583:9-587:67
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:583:9-587:67
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:583:9-587:67
+	android:excludeFromRecents
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:585:13-46
+	android:launchMode
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:586:13-48
+	android:theme
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:587:13-64
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:584:13-60
+activity#nodomain.freeyourgadget.gadgetbridge.activities.WidgetConfigurationActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:589:9-593:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:589:9-593:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:589:9-593:20
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:589:19-73
+intent-filter#action:name:android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:590:13-592:29
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:591:17-86
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:591:25-84
+activity#nodomain.freeyourgadget.gadgetbridge.activities.SleepAlarmWidgetConfigurationActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:595:9-599:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:595:9-599:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:595:9-599:20
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:595:19-83
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ExternalPebbleJSActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:601:9-620:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:601:9-620:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:601:9-620:20
+	android:clearTaskOnLaunch
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:604:13-45
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:607:13-83
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:605:13-50
+	android:launchMode
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:606:13-44
+	android:allowTaskReparenting
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:603:13-48
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:602:13-64
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:608:13-610:99
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:608:13-610:99
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:608:13-610:99
+	android:value
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:610:17-96
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:609:17-63
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:gadgetbridge
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:612:13-619:29
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:616:17-78
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:616:27-75
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.ConfigActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:622:9-626:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:622:9-626:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:622:9-626:72
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:626:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:624:13-60
+	android:exported
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:625:13-36
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:623:13-59
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.QHybridAppChoserActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:627:9-631:76
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:627:9-631:76
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:627:9-631:76
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:631:13-73
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:629:13-55
+	android:exported
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:630:13-36
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:628:13-69
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HRConfigActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:632:9-636:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:632:9-636:72
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:632:9-636:72
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:636:13-69
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:634:13-60
+	android:exported
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:635:13-36
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:633:13-61
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.WidgetSettingsActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:637:9-639:78
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:637:9-639:78
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:637:9-639:78
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:639:13-75
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:638:13-47
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:637:19-73
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.ImageEditActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:640:9-644:78
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:640:9-644:78
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:640:9-644:78
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:644:13-75
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:642:13-67
+	android:exported
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:643:13-36
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:641:13-62
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.FileManagementActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:645:9-649:77
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:645:9-649:77
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:645:9-649:77
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:649:13-75
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:647:13-66
+	android:exported
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:648:13-36
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:646:13-67
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.AppsManagementActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:650:9-654:78
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:650:9-654:78
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:650:9-654:78
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:654:13-75
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:652:13-66
+	android:exported
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:653:13-36
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:651:13-67
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.CalibrationActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:655:9-658:78
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:655:9-658:78
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:655:9-658:78
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:658:13-75
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:657:13-62
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:656:13-64
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.CommuteActionsActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:659:9-662:78
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:659:9-662:78
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:659:9-662:78
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:662:13-75
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:661:13-63
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:660:13-67
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceDesignerActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:663:9-668:86
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:663:9-668:86
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:663:9-668:86
+	android:screenOrientation
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:666:13-49
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:668:13-83
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:665:13-69
+	android:launchMode
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:667:13-43
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:664:13-78
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceSettingsActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:669:9-672:95
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:669:9-672:95
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:669:9-672:95
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:672:13-92
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:671:13-68
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:670:13-78
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceWidgetActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:673:9-676:95
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:673:9-676:95
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:673:9-676:95
+	android:parentActivityName
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:676:13-92
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:675:13-66
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:674:13-76
+activity#nodomain.freeyourgadget.gadgetbridge.devices.um25.Activity.DataActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:678:9-680:39
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:678:9-680:39
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:678:9-680:39
+	android:exported
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:680:13-36
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:679:13-63
+activity#nodomain.freeyourgadget.gadgetbridge.devices.supercars.ControlActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:682:9-684:39
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:682:9-684:39
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:682:9-684:39
+	android:exported
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:684:13-36
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:683:13-62
+activity#nodomain.freeyourgadget.gadgetbridge.devices.binary_sensor.activity.DataActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:686:9-688:39
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:686:9-688:39
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:686:9-688:39
+	android:exported
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:688:13-36
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:687:13-72
+activity#nodomain.freeyourgadget.gadgetbridge.activities.GpxReceiverActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:690:9-701:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:690:9-701:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:690:9-701:20
+	android:screenOrientation
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:693:13-49
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:692:13-64
+	android:windowSoftInputMode
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:694:13-54
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:691:13-59
+intent-filter#action:name:android.intent.action.SEND+action:name:android.intent.action.SEND_MULTIPLE+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:695:13-700:29
+action#android.intent.action.SEND_MULTIPLE
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:697:17-78
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:697:25-75
+activity#nodomain.freeyourgadget.gadgetbridge.activities.WakeActivity
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:703:9-706:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:703:9-706:20
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:703:9-706:20
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:705:13-41
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:704:13-52
+activity#nodomain.freeyourgadget.gadgetbridge.externalevents.opentracks.OpenTracksController
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:708:9-711:38
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:708:9-711:38
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:708:9-711:38
+	android:label
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:710:13-70
+	android:exported
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:711:13-36
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:709:13-75
+uses-sdk
+INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml
+MERGED from [com.github.denzcoskun:ImageSlideshow:0.1.2] C:\Users\yerzh\.gradle\caches\transforms-3\c8abaa011f60a733f4da6f09dac88b17\transformed\jetified-ImageSlideshow-0.1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.denzcoskun:ImageSlideshow:0.1.2] C:\Users\yerzh\.gradle\caches\transforms-3\c8abaa011f60a733f4da6f09dac88b17\transformed\jetified-ImageSlideshow-0.1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\yerzh\.gradle\caches\transforms-3\a34ddd15205f8f5060623f81874c7cb1\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\yerzh\.gradle\caches\transforms-3\a34ddd15205f8f5060623f81874c7cb1\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\yerzh\.gradle\caches\transforms-3\4cbea4d868db074f004d3609b99b545e\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\yerzh\.gradle\caches\transforms-3\4cbea4d868db074f004d3609b99b545e\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\yerzh\.gradle\caches\transforms-3\93c21dd58fcb7eb1406d2c59cca8a2f0\transformed\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\yerzh\.gradle\caches\transforms-3\93c21dd58fcb7eb1406d2c59cca8a2f0\transformed\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.jaredrummler:colorpicker:1.0.2] C:\Users\yerzh\.gradle\caches\transforms-3\f0d8f7aeab1fc3e21ff8accd35af6b45\transformed\jetified-colorpicker-1.0.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.jaredrummler:colorpicker:1.0.2] C:\Users\yerzh\.gradle\caches\transforms-3\f0d8f7aeab1fc3e21ff8accd35af6b45\transformed\jetified-colorpicker-1.0.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.wax911:android-emojify:0.1.7] C:\Users\yerzh\.gradle\caches\transforms-3\5c741e4ef5e824cb6ab9b6e786069847\transformed\jetified-android-emojify-0.1.7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.wax911:android-emojify:0.1.7] C:\Users\yerzh\.gradle\caches\transforms-3\5c741e4ef5e824cb6ab9b6e786069847\transformed\jetified-android-emojify-0.1.7\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\yerzh\.gradle\caches\transforms-3\7597d48dcc2e488f841fe1e240533d52\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\yerzh\.gradle\caches\transforms-3\7597d48dcc2e488f841fe1e240533d52\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\1fc0c7a562471e961979cbd29a371df4\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\1fc0c7a562471e961979cbd29a371df4\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\641f1d1b718a7f49754a7e9bdcd36ef9\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\641f1d1b718a7f49754a7e9bdcd36ef9\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\yerzh\.gradle\caches\transforms-3\542aeba9af702b3a3f95a9709bbd5236\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\yerzh\.gradle\caches\transforms-3\542aeba9af702b3a3f95a9709bbd5236\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\950d8782039698a818198f726207453c\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\950d8782039698a818198f726207453c\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\3ee7d10fac2563c6bd508ea16e4a9d78\transformed\gridlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\3ee7d10fac2563c6bd508ea16e4a9d78\transformed\gridlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\efd05f550c682d4243bda473ad59f2a2\transformed\palette-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\efd05f550c682d4243bda473ad59f2a2\transformed\palette-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\5e095aaf2ed4bbcb54b595176b37ca32\transformed\jetified-flexbox-3.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\5e095aaf2ed4bbcb54b595176b37ca32\transformed\jetified-flexbox-3.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [no.nordicsemi.android:dfu:1.11.1] C:\Users\yerzh\.gradle\caches\transforms-3\0cfeb4a86d68bfac6d3cc2d084f9c8be\transformed\jetified-dfu-1.11.1\AndroidManifest.xml:7:5-9:41
+MERGED from [no.nordicsemi.android:dfu:1.11.1] C:\Users\yerzh\.gradle\caches\transforms-3\0cfeb4a86d68bfac6d3cc2d084f9c8be\transformed\jetified-dfu-1.11.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.tony19:logback-android:2.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\cf8f30b78e06e1f9ee4ba1d99d825e3a\transformed\jetified-logback-android-2.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.tony19:logback-android:2.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\cf8f30b78e06e1f9ee4ba1d99d825e3a\transformed\jetified-logback-android-2.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\yerzh\.gradle\caches\transforms-3\0954182ff1a3103ab3afa8bada7a4e3e\transformed\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\yerzh\.gradle\caches\transforms-3\0954182ff1a3103ab3afa8bada7a4e3e\transformed\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.2] C:\Users\yerzh\.gradle\caches\transforms-3\eeb3f8d7304fe9115d781a841c56876c\transformed\jetified-ckchangelog-1.2.2\AndroidManifest.xml:7:5-43
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.2] C:\Users\yerzh\.gradle\caches\transforms-3\eeb3f8d7304fe9115d781a841c56876c\transformed\jetified-ckchangelog-1.2.2\AndroidManifest.xml:7:5-43
+MERGED from [org.cyanogenmod:platform.sdk:6.0] C:\Users\yerzh\.gradle\caches\transforms-3\b0aa3b2da3475537a577e47ad33346ce\transformed\jetified-platform.sdk-6.0\AndroidManifest.xml:21:5-43
+MERGED from [org.cyanogenmod:platform.sdk:6.0] C:\Users\yerzh\.gradle\caches\transforms-3\b0aa3b2da3475537a577e47ad33346ce\transformed\jetified-platform.sdk-6.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\yerzh\.gradle\caches\transforms-3\d6064c9e31b4a83fb1b1870673b423b3\transformed\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\yerzh\.gradle\caches\transforms-3\d6064c9e31b4a83fb1b1870673b423b3\transformed\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.0] C:\Users\yerzh\.gradle\caches\transforms-3\a1d025e0c37114e99725892dd42eddc0\transformed\jetified-threetenabp-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.4.0] C:\Users\yerzh\.gradle\caches\transforms-3\a1d025e0c37114e99725892dd42eddc0\transformed\jetified-threetenabp-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\yerzh\.gradle\caches\transforms-3\301f7768c885b3501fe54c09d65130c6\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\yerzh\.gradle\caches\transforms-3\301f7768c885b3501fe54c09d65130c6\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\yerzh\.gradle\caches\transforms-3\f33f7511f48d67f0d60803a446c01538\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\yerzh\.gradle\caches\transforms-3\f33f7511f48d67f0d60803a446c01538\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\yerzh\.gradle\caches\transforms-3\281b769d792530df614a88215eb572a6\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\yerzh\.gradle\caches\transforms-3\281b769d792530df614a88215eb572a6\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\yerzh\.gradle\caches\transforms-3\b418db55a7d9510c71c32afebaf44629\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\yerzh\.gradle\caches\transforms-3\b418db55a7d9510c71c32afebaf44629\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\39985aff5f8d6a483cd1d4b996aaf363\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\39985aff5f8d6a483cd1d4b996aaf363\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\a087392b4a91cd8a736ae7e4b3c4ed95\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\a087392b4a91cd8a736ae7e4b3c4ed95\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\yerzh\.gradle\caches\transforms-3\f75161528fbc8ca01f6ac8509c311b85\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\yerzh\.gradle\caches\transforms-3\f75161528fbc8ca01f6ac8509c311b85\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\1c22d86435ff62dd781b15544adf0980\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\1c22d86435ff62dd781b15544adf0980\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\3dbcb79667afae187843add25a0f405c\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\3dbcb79667afae187843add25a0f405c\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\a4421b541e1b5a0fc214cbcbfeda0277\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\a4421b541e1b5a0fc214cbcbfeda0277\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\a9d830c2d6c42295495dffdcee092f9f\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\a9d830c2d6c42295495dffdcee092f9f\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\705388fdcc7e90367e60ce25ac4dff68\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\705388fdcc7e90367e60ce25ac4dff68\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\a10a7d1ec5fb587d59f7407e5b09283e\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\a10a7d1ec5fb587d59f7407e5b09283e\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\yerzh\.gradle\caches\transforms-3\a3bad7a95e759f17b921ec5f045e0bc0\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\yerzh\.gradle\caches\transforms-3\a3bad7a95e759f17b921ec5f045e0bc0\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\yerzh\.gradle\caches\transforms-3\0025140b346a84aa58c5f58c588269cd\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\yerzh\.gradle\caches\transforms-3\0025140b346a84aa58c5f58c588269cd\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\yerzh\.gradle\caches\transforms-3\a07f413101ad874b10e873f257b841ae\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\yerzh\.gradle\caches\transforms-3\a07f413101ad874b10e873f257b841ae\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\43e481825934cfdb0578b2897e70bb06\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\43e481825934cfdb0578b2897e70bb06\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\e56e61a83767d11ad2e077ff08c60597\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\e56e61a83767d11ad2e077ff08c60597\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\e61a002b9b704557486ea83d0303cd7e\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\e61a002b9b704557486ea83d0303cd7e\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] C:\Users\yerzh\.gradle\caches\transforms-3\88376b3bcbc059c61174eb85719947e9\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\yerzh\.gradle\caches\transforms-3\88376b3bcbc059c61174eb85719947e9\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\8d8189a55c9eadac6a9342ef162bf9f2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\8d8189a55c9eadac6a9342ef162bf9f2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\yerzh\.gradle\caches\transforms-3\d7b2f29f161ba2a2fbd7b70aec2773fd\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\yerzh\.gradle\caches\transforms-3\d7b2f29f161ba2a2fbd7b70aec2773fd\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\yerzh\.gradle\caches\transforms-3\8ba488d03058f642786ce933288e6a19\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\yerzh\.gradle\caches\transforms-3\8ba488d03058f642786ce933288e6a19\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\yerzh\.gradle\caches\transforms-3\dc08d83b707448e038113551993a7c04\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\yerzh\.gradle\caches\transforms-3\dc08d83b707448e038113551993a7c04\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\yerzh\.gradle\caches\transforms-3\3e41c935f71087694e892cd2e3ea27ae\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\yerzh\.gradle\caches\transforms-3\3e41c935f71087694e892cd2e3ea27ae\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\84b0ebc928b2eda34e79c0e5e33781b5\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\84b0ebc928b2eda34e79c0e5e33781b5\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\c3df13bf736dfdff3d98ef4f73ceb433\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\c3df13bf736dfdff3d98ef4f73ceb433\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yerzh\.gradle\caches\transforms-3\2f222b1e6a840af84a52c92641bc9bed\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yerzh\.gradle\caches\transforms-3\2f222b1e6a840af84a52c92641bc9bed\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\f1dec1ed3b35f9a666ca9665ac6896e8\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\f1dec1ed3b35f9a666ca9665ac6896e8\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\fe98e75b6d37bb4a071e8a5b284afdfa\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\fe98e75b6d37bb4a071e8a5b284afdfa\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\yerzh\.gradle\caches\transforms-3\1c4e2858848767324bdfafe9822c77ea\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\yerzh\.gradle\caches\transforms-3\1c4e2858848767324bdfafe9822c77ea\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\yerzh\.gradle\caches\transforms-3\94ff50331fd911bfd9388f641d7287fb\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\yerzh\.gradle\caches\transforms-3\94ff50331fd911bfd9388f641d7287fb\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\7eb0714211200ce4487975f1ad8426dc\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\7eb0714211200ce4487975f1ad8426dc\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\ee7c09a246a11af5bbf64d15922cb962\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\ee7c09a246a11af5bbf64d15922cb962\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\07171e0f299e0c797433e03cd433cd69\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\07171e0f299e0c797433e03cd433cd69\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\cfc0af64345a8d6bc536dc1cd1ac7e87\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\yerzh\.gradle\caches\transforms-3\cfc0af64345a8d6bc536dc1cd1ac7e87\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:551:13-553:56
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:551:13-553:56
+MERGED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:551:13-553:56
+	android:resource
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:553:17-53
+	android:name
+		ADDED from C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:552:17-67
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\yerzh\.gradle\caches\transforms-3\301f7768c885b3501fe54c09d65130c6\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\yerzh\.gradle\caches\transforms-3\301f7768c885b3501fe54c09d65130c6\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\yerzh\.gradle\caches\transforms-3\301f7768c885b3501fe54c09d65130c6\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\yerzh\.gradle\caches\transforms-3\301f7768c885b3501fe54c09d65130c6\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64

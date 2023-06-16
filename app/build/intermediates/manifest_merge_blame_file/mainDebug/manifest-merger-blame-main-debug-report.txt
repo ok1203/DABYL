@@ -1,0 +1,1547 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="nodomain.freeyourgadget.gadgetbridge"
+4    android:versionCode="220"
+5    android:versionName="0.72.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <!--
+12        Comment in for testing Pebble Emulator
+13        <uses-permission android:name="android.permission.INTERNET" />
+14    -->
+15    <!-- Used for Bluetooth access -->
+16    <uses-permission android:name="android.permission.BLUETOOTH" />
+16-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:11:5-68
+16-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:11:22-65
+17    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+17-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:12:5-74
+17-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:12:22-71
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:13:5-81
+18-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:13:22-78
+19
+20    <!-- Since Android 10 -->
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:16:5-79
+21-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:16:22-76
+22    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+22-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:17:5-85
+22-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:17:22-82
+23    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+23-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:19:5-72
+23-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:19:22-69
+24    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+24-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:20:5-75
+24-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:20:22-72
+25    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+25-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:21:5-81
+25-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:21:22-78
+26    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+26-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:22:5-85
+26-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:22:22-82
+27    <uses-permission android:name="android.permission.CALL_PHONE" />
+27-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:23:5-69
+27-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:23:22-66
+28    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+28-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:24:5-77
+28-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:24:22-74
+29    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+29-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:25:5-70
+29-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:25:22-67
+30    <uses-permission android:name="android.permission.SEND_SMS" />
+30-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:26:5-67
+30-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:26:22-64
+31    <uses-permission android:name="android.permission.READ_CONTACTS" />
+31-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:27:5-72
+31-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:27:22-69
+32    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+32-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:29:5-80
+32-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:29:22-77
+33    <uses-permission android:name="android.permission.READ_CALENDAR" />
+33-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:30:5-72
+33-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:30:22-69
+34    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+34-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:31:5-33:47
+34-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:32:9-64
+35
+36    <!-- Used for background service -->
+37    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+37-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:36:5-81
+37-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:36:22-78
+38    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+38-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:37:5-77
+38-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:37:22-74
+39    <uses-permission android:name="android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND" />
+39-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:38:5-94
+39-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:38:22-91
+40
+41    <!-- Used for reverse find device -->
+42    <uses-permission android:name="android.permission.VIBRATE" />
+42-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:41:5-66
+42-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:41:22-63
+43
+44    <!-- Used for weather provider access -->
+45    <uses-permission android:name="cyanogenmod.permission.ACCESS_WEATHER_MANAGER" />
+45-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:44:5-85
+45-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:44:22-82
+46    <uses-permission android:name="cyanogenmod.permission.READ_WEATHER" />
+46-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:45:5-75
+46-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:45:22-72
+47    <uses-permission android:name="lineageos.permission.ACCESS_WEATHER_MANAGER" />
+47-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:46:5-83
+47-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:46:22-80
+48    <uses-permission android:name="lineageos.permission.READ_WEATHER" />
+48-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:47:5-73
+48-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:47:22-70
+49    <uses-permission android:name="org.omnirom.omnijaws.READ_WEATHER" />
+49-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:48:5-73
+49-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:48:22-70
+50
+51    <!-- Used for starting activities from the background with intents -->
+52    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+52-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:51:5-78
+52-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:51:22-75
+53
+54    <uses-feature
+54-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:53:5-55:35
+55        android:name="android.hardware.bluetooth"
+55-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:54:9-50
+56        android:required="true" />
+56-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:55:9-32
+57    <uses-feature
+57-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:56:5-58:36
+58        android:name="android.hardware.bluetooth_le"
+58-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:57:9-53
+59        android:required="false" />
+59-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:58:9-33
+60    <uses-feature
+60-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:59:5-61:36
+61        android:name="android.hardware.telephony"
+61-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:60:9-50
+62        android:required="false" />
+62-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:61:9-33
+63    <uses-feature
+63-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:62:5-64:36
+64        android:name="android.software.companion_device_setup"
+64-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:63:9-63
+65        android:required="false" />
+65-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:64:9-33
+66
+67    <application
+67-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:66:5-712:19
+68        android:name="nodomain.freeyourgadget.gadgetbridge.GBApplication"
+68-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:67:9-38
+69        android:allowBackup="false"
+69-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:68:9-36
+70        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+70-->[androidx.core:core:1.5.0] C:\Users\yerzh\.gradle\caches\transforms-3\88376b3bcbc059c61174eb85719947e9\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+71        android:debuggable="true"
+72        android:fullBackupContent="false"
+72-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:69:9-42
+73        android:icon="@mipmap/ic_launcher"
+73-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:70:9-43
+74        android:label="@string/app_name"
+74-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:71:9-41
+75        android:requestLegacyExternalStorage="true"
+75-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:73:9-52
+76        android:roundIcon="@mipmap/ic_launcher_round"
+76-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:72:9-54
+77        android:supportsRtl="true"
+77-->[com.github.wax911:android-emojify:0.1.7] C:\Users\yerzh\.gradle\caches\transforms-3\5c741e4ef5e824cb6ab9b6e786069847\transformed\jetified-android-emojify-0.1.7\AndroidManifest.xml:13:9-35
+78        android:testOnly="true"
+79        android:theme="@style/GadgetbridgeTheme" >
+79-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:74:9-49
+80        <activity
+80-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:76:9-88:20
+81            android:name="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2"
+81-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:77:13-55
+82            android:label="@string/title_activity_controlcenter"
+82-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:78:13-65
+83            android:launchMode="singleTop"
+83-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:80:13-43
+84            android:theme="@style/SplashTheme" >
+84-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:79:13-47
+85            <intent-filter>
+85-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:81:13-87:29
+86                <category android:name="android.intent.category.DEFAULT" />
+86-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:82:17-76
+86-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:82:27-73
+87
+88                <action android:name="android.intent.action.MAIN" />
+88-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:84:17-69
+88-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:84:25-66
+89
+90                <category android:name="android.intent.category.LAUNCHER" />
+90-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:86:17-77
+90-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:86:27-74
+91            </intent-filter>
+92        </activity>
+93        <activity
+93-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:89:9-92:72
+94            android:name="nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity"
+94-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:90:13-56
+95            android:label="@string/title_activity_settings"
+95-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:91:13-60
+96            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+96-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:92:13-69
+97        <activity
+97-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:93:9-96:85
+98            android:name="nodomain.freeyourgadget.gadgetbridge.activities.AboutUserPreferencesActivity"
+98-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:94:13-68
+99            android:label="@string/activity_prefs_about_you"
+99-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:95:13-61
+100            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.AboutUserPreferencesActivity" />
+100-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:96:13-82
+101        <activity
+101-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:97:9-100:89
+102            android:name="nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsPreferencesActivity"
+102-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:98:13-72
+103            android:label="@string/activity_prefs_charts"
+103-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:99:13-58
+104            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsPreferencesActivity" />
+104-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:100:13-86
+105        <activity
+105-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:101:9-104:73
+106            android:name="nodomain.freeyourgadget.gadgetbridge.activities.DiscoveryPairingPreferenceActivity"
+106-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:102:13-74
+107            android:label="@string/activity_prefs_discovery_pairing"
+107-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:103:13-69
+108            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity" />
+108-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:104:13-70
+109        <activity
+109-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:105:9-108:73
+110            android:name="nodomain.freeyourgadget.gadgetbridge.devices.miband.MiBandPreferencesActivity"
+110-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:106:13-69
+111            android:label="@string/preferences_miband_settings"
+111-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:107:13-64
+112            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity" />
+112-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:108:13-70
+113        <activity
+113-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:109:9-112:73
+114            android:name="nodomain.freeyourgadget.gadgetbridge.devices.zetime.ZeTimePreferenceActivity"
+114-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:110:13-68
+115            android:label="@string/zetime_title_settings"
+115-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:111:13-58
+116            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity" />
+116-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:112:13-70
+117        <activity
+117-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:113:9-116:72
+118            android:name="nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummariesActivity"
+118-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:114:13-65
+119            android:label="@string/activity_summaries"
+119-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:115:13-55
+120            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+120-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:116:13-69
+121        <activity
+121-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:117:9-121:72
+122            android:name="nodomain.freeyourgadget.gadgetbridge.activities.appmanager.AppManagerActivity"
+122-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:118:13-69
+123            android:label="@string/title_activity_appmanager"
+123-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:119:13-62
+124            android:launchMode="singleTop"
+124-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:120:13-43
+125            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+125-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:121:13-69
+126        <activity
+126-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:122:9-125:73
+127            android:name="nodomain.freeyourgadget.gadgetbridge.activities.AppBlacklistActivity"
+127-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:123:13-60
+128            android:label="@string/title_activity_notification_management"
+128-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:124:13-75
+129            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity" />
+129-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:125:13-70
+130        <activity
+130-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:126:9-129:73
+131            android:name="nodomain.freeyourgadget.gadgetbridge.activities.CalBlacklistActivity"
+131-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:127:13-60
+132            android:label="@string/title_activity_calblacklist"
+132-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:128:13-64
+133            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity" />
+133-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:129:13-70
+134        <activity
+134-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:130:9-133:72
+135            android:name="nodomain.freeyourgadget.gadgetbridge.devices.vesc.VescControlActivity"
+135-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:131:13-61
+136            android:label="@string/devicetype_vesc"
+136-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:132:13-52
+137            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+137-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:133:13-69
+138        <activity
+138-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:134:9-335:20
+139            android:name="nodomain.freeyourgadget.gadgetbridge.activities.FwAppInstallerActivity"
+139-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:135:13-62
+140            android:label="@string/title_activity_fw_app_insaller"
+140-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:136:13-67
+141            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" >
+141-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:137:13-69
+142            <intent-filter>
+142-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:138:13-231:29
+143                <action android:name="android.intent.action.VIEW" />
+143-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:139:17-69
+143-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:139:25-66
+144
+145                <category android:name="android.intent.category.DEFAULT" />
+145-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:82:17-76
+145-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:82:27-73
+146
+147                <data android:mimeType="*/*" />
+147-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+147-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:23-45
+148                <!-- needed for aosp-derived ROMs? -->
+149
+150                <data android:host="*" />
+150-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+150-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:146:23-39
+151                <data android:scheme="file" />
+151-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+151-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:147:23-44
+152
+153                <!-- as seen on openkeychain repo: https://github.com/open-keychain/open-keychain/blob/master/OpenKeychain/src/main/AndroidManifest.xml -->
+154
+155                <data android:pathPattern="/.*\\.fw" />
+155-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+155-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+156                <data android:pathPattern="/.*\\..*\\.fw" />
+156-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+156-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+157                <data android:pathPattern="/.*\\..*\\..*\\.fw" />
+157-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+157-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+158                <data android:pathPattern="/.*\\..*\\..*\\..*\\.fw" />
+158-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+158-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+159                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.fw" />
+159-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+159-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+160                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+160-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+160-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+161                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+161-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+161-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+162                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+162-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+162-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+163                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+163-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+163-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+164                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+164-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+164-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+165                <data android:pathPattern="/.*\\.ft.en" />
+165-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+165-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+166                <data android:pathPattern="/.*\\..*\\.ft.en" />
+166-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+166-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+167                <data android:pathPattern="/.*\\..*\\..*\\.ft.en" />
+167-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+167-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+168                <data android:pathPattern="/.*\\..*\\..*\\..*\\.ft.en" />
+168-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+168-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+169                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.ft.en" />
+169-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+169-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+170                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+170-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+170-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+171                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+171-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+171-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+172                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+172-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+172-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+173                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+173-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+173-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+174                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+174-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+174-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+175                <data android:pathPattern="/.*\\.ft" />
+175-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+175-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+176                <data android:pathPattern="/.*\\..*\\.ft" />
+176-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+176-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+177                <data android:pathPattern="/.*\\..*\\..*\\.ft" />
+177-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+177-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+178                <data android:pathPattern="/.*\\..*\\..*\\..*\\.ft" />
+178-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+178-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+179                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.ft" />
+179-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+179-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+180                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+180-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+180-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+181                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+181-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+181-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+182                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+182-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+182-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+183                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+183-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+183-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+184                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+184-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+184-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+185                <data android:pathPattern="/.*\\.res" />
+185-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+185-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+186                <data android:pathPattern="/.*\\..*\\.res" />
+186-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+186-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+187                <data android:pathPattern="/.*\\..*\\..*\\.res" />
+187-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+187-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+188                <data android:pathPattern="/.*\\..*\\..*\\..*\\.res" />
+188-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+188-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+189                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.res" />
+189-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+189-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+190                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.res" />
+190-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+190-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+191                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+191-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+191-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+192                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+192-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+192-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+193                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+193-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+193-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+194                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+194-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+194-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+195                <data android:pathPattern="/.*\\.gps" />
+195-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+195-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+196                <data android:pathPattern="/.*\\..*\\.gps" />
+196-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+196-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+197                <data android:pathPattern="/.*\\..*\\..*\\.gps" />
+197-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+197-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+198                <data android:pathPattern="/.*\\..*\\..*\\..*\\.gps" />
+198-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+198-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+199                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.gps" />
+199-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+199-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+200                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+200-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+200-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+201                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+201-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+201-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+202                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+202-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+202-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+203                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+203-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+203-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+204                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+204-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+204-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+205                <data android:pathPattern="/.*\\.pbw" />
+205-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+205-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+206                <data android:pathPattern="/.*\\..*\\.pbw" />
+206-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+206-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+207                <data android:pathPattern="/.*\\..*\\..*\\.pbw" />
+207-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+207-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+208                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbw" />
+208-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+208-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+209                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbw" />
+209-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+209-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+210                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+210-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+210-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+211                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+211-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+211-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+212                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+212-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+212-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+213                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+213-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+213-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+214                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+214-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+214-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+215                <data android:pathPattern="/.*\\.pbz" />
+215-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+215-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+216                <data android:pathPattern="/.*\\..*\\.pbz" />
+216-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+216-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+217                <data android:pathPattern="/.*\\..*\\..*\\.pbz" />
+217-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+217-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+218                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbz" />
+218-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+218-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+219                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbz" />
+219-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+219-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+220                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+220-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+220-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+221                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+221-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+221-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+222                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+222-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+222-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+223                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+223-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+223-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+224                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+224-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+224-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+225                <data android:pathPattern="/.*\\.pbl" />
+225-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+225-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+226                <data android:pathPattern="/.*\\..*\\.pbl" />
+226-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+226-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+227                <data android:pathPattern="/.*\\..*\\..*\\.pbl" />
+227-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+227-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+228                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbl" />
+228-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+228-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+229                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbl" />
+229-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+229-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+230                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+230-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+230-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+231                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+231-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+231-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+232                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+232-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+232-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+233                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+233-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+233-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+234                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+234-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+234-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+235            </intent-filter>
+236            <intent-filter>
+236-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:232:13-324:29
+237                <action android:name="android.intent.action.VIEW" />
+237-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:139:17-69
+237-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:139:25-66
+238
+239                <category android:name="android.intent.category.DEFAULT" />
+239-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:82:17-76
+239-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:82:27-73
+240
+241                <!-- no mimeType filter, needed for CM-derived ROMs? -->
+242
+243                <data android:host="*" />
+243-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+243-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:146:23-39
+244                <data android:scheme="file" />
+244-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+244-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:147:23-44
+245
+246                <!-- as seen on openkeychain repo: https://github.com/open-keychain/open-keychain/blob/master/OpenKeychain/src/main/AndroidManifest.xml -->
+247
+248                <data android:pathPattern="/.*\\.fw" />
+248-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+248-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+249                <data android:pathPattern="/.*\\..*\\.fw" />
+249-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+249-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+250                <data android:pathPattern="/.*\\..*\\..*\\.fw" />
+250-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+250-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+251                <data android:pathPattern="/.*\\..*\\..*\\..*\\.fw" />
+251-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+251-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+252                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.fw" />
+252-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+252-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+253                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+253-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+253-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+254                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+254-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+254-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+255                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+255-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+255-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+256                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+256-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+256-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+257                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+257-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+257-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+258                <data android:pathPattern="/.*\\.ft.en" />
+258-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+258-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+259                <data android:pathPattern="/.*\\..*\\.ft.en" />
+259-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+259-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+260                <data android:pathPattern="/.*\\..*\\..*\\.ft.en" />
+260-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+260-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+261                <data android:pathPattern="/.*\\..*\\..*\\..*\\.ft.en" />
+261-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+261-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+262                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.ft.en" />
+262-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+262-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+263                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+263-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+263-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+264                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+264-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+264-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+265                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+265-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+265-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+266                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+266-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+266-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+267                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+267-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+267-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+268                <data android:pathPattern="/.*\\.ft" />
+268-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+268-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+269                <data android:pathPattern="/.*\\..*\\.ft" />
+269-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+269-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+270                <data android:pathPattern="/.*\\..*\\..*\\.ft" />
+270-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+270-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+271                <data android:pathPattern="/.*\\..*\\..*\\..*\\.ft" />
+271-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+271-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+272                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.ft" />
+272-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+272-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+273                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+273-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+273-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+274                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+274-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+274-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+275                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+275-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+275-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+276                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+276-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+276-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+277                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+277-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+277-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+278                <data android:pathPattern="/.*\\.res" />
+278-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+278-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+279                <data android:pathPattern="/.*\\..*\\.res" />
+279-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+279-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+280                <data android:pathPattern="/.*\\..*\\..*\\.res" />
+280-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+280-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+281                <data android:pathPattern="/.*\\..*\\..*\\..*\\.res" />
+281-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+281-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+282                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.res" />
+282-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+282-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+283                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.res" />
+283-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+283-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+284                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+284-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+284-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+285                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+285-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+285-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+286                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+286-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+286-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+287                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+287-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+287-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+288                <data android:pathPattern="/.*\\.gps" />
+288-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+288-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+289                <data android:pathPattern="/.*\\..*\\.gps" />
+289-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+289-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+290                <data android:pathPattern="/.*\\..*\\..*\\.gps" />
+290-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+290-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+291                <data android:pathPattern="/.*\\..*\\..*\\..*\\.gps" />
+291-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+291-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+292                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.gps" />
+292-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+292-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+293                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+293-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+293-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+294                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+294-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+294-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+295                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+295-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+295-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+296                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+296-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+296-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+297                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+297-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+297-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+298                <data android:pathPattern="/.*\\.pbw" />
+298-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+298-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+299                <data android:pathPattern="/.*\\..*\\.pbw" />
+299-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+299-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+300                <data android:pathPattern="/.*\\..*\\..*\\.pbw" />
+300-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+300-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+301                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbw" />
+301-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+301-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+302                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbw" />
+302-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+302-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+303                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+303-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+303-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+304                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+304-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+304-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+305                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+305-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+305-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+306                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+306-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+306-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+307                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+307-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+307-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+308                <data android:pathPattern="/.*\\.pbz" />
+308-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+308-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+309                <data android:pathPattern="/.*\\..*\\.pbz" />
+309-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+309-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+310                <data android:pathPattern="/.*\\..*\\..*\\.pbz" />
+310-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+310-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+311                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbz" />
+311-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+311-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+312                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbz" />
+312-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+312-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+313                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+313-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+313-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+314                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+314-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+314-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+315                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+315-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+315-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+316                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+316-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+316-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+317                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+317-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+317-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+318                <data android:pathPattern="/.*\\.pbl" />
+318-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+318-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+319                <data android:pathPattern="/.*\\..*\\.pbl" />
+319-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+319-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+320                <data android:pathPattern="/.*\\..*\\..*\\.pbl" />
+320-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+320-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+321                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbl" />
+321-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+321-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+322                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbl" />
+322-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+322-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+323                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+323-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+323-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+324                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+324-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+324-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+325                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+325-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+325-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+326                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+326-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+326-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+327                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+327-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+327-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:151:23-53
+328            </intent-filter>
+329
+330            <!-- to receive files from the "share" intent -->
+331            <intent-filter>
+331-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:328:13-334:29
+332                <action android:name="android.intent.action.SEND" />
+332-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:329:17-69
+332-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:329:25-66
+333
+334                <category android:name="android.intent.category.DEFAULT" />
+334-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:82:17-76
+334-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:82:27-73
+335
+336                <data android:mimeType="*/*" />
+336-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+336-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:23-45
+337            </intent-filter>
+338        </activity>
+339
+340        <service
+340-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:337:9-344:19
+341            android:name="nodomain.freeyourgadget.gadgetbridge.externalevents.NotificationListener"
+341-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:338:13-64
+342            android:label="@string/app_name"
+342-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:339:13-45
+343            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+343-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:340:13-87
+344            <intent-filter>
+344-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:341:13-343:29
+345                <action android:name="android.service.notification.NotificationListenerService" />
+345-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:342:17-99
+345-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:342:25-96
+346            </intent-filter>
+347        </service>
+348        <service android:name="nodomain.freeyourgadget.gadgetbridge.service.NotificationCollectorMonitorService" />
+348-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:345:9-80
+348-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:345:18-77
+349        <service android:name="nodomain.freeyourgadget.gadgetbridge.service.DeviceCommunicationService" />
+349-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:346:9-71
+349-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:346:18-68
+350        <service
+350-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:347:9-349:59
+351            android:name="nodomain.freeyourgadget.gadgetbridge.devices.pinetime.PineTimeDFUService"
+351-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:348:13-64
+352            android:label="PineTime Nordic DFU service" />
+352-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:349:13-56
+353
+354        <receiver
+354-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:351:9-357:20
+355            android:name="nodomain.freeyourgadget.gadgetbridge.externalevents.GenericWeatherReceiver"
+355-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:352:13-66
+356            android:enabled="true" >
+356-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:353:13-35
+357            <intent-filter>
+357-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:354:13-356:29
+358                <action android:name="nodomain.freeyourgadget.gadgetbridge.ACTION_GENERIC_WEATHER" />
+358-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:355:17-102
+358-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:355:25-99
+359            </intent-filter>
+360        </receiver>
+361        <receiver
+361-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:359:9-365:20
+362            android:name="nodomain.freeyourgadget.gadgetbridge.externalevents.WeatherNotificationReceiver"
+362-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:360:13-71
+363            android:enabled="true" >
+363-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:361:13-35
+364            <intent-filter>
+364-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:362:13-364:29
+365                <action android:name="ru.gelin.android.weather.notification.ACTION_WEATHER_UPDATE_2" />
+365-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:363:17-104
+365-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:363:25-101
+366            </intent-filter>
+367        </receiver>
+368
+369        <activity android:name="nodomain.freeyourgadget.gadgetbridge.externalevents.WeatherNotificationConfig" >
+369-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:367:9-371:20
+369-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:367:19-75
+370            <intent-filter>
+370-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:368:13-370:29
+371                <action android:name="ru.gelin.android.weather.notification.ACTION_WEATHER_SKIN_PREFERENCES" />
+371-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:369:17-112
+371-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:369:25-109
+372            </intent-filter>
+373        </activity>
+374
+375        <receiver
+375-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:373:9-381:20
+376            android:name="nodomain.freeyourgadget.gadgetbridge.externalevents.AutoStartReceiver"
+376-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:374:13-61
+377            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+377-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:375:13-75
+378            <intent-filter>
+378-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:376:13-380:29
+379                <action android:name="android.intent.action.BOOT_COMPLETED" />
+379-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:377:17-79
+379-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:377:25-76
+380
+381                <category android:name="android.intent.category.DEFAULT" />
+381-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:82:17-76
+381-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:82:27-73
+382
+383                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+383-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:379:17-83
+383-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:379:25-81
+384            </intent-filter>
+385        </receiver>
+386        <receiver
+386-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:383:9-395:20
+387            android:name="nodomain.freeyourgadget.gadgetbridge.externalevents.BluetoothStateChangeReceiver"
+387-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:384:13-72
+388            android:exported="true"
+388-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:385:13-36
+389            android:permission="android.permission.BLUETOOTH,android.permission.BLUETOOTH_ADMIN" >
+389-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:386:13-97
+390            <intent-filter>
+390-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:387:13-394:29
+391                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+391-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:388:17-89
+391-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:388:25-86
+392                <action android:name="android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED" />
+392-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:389:17-100
+392-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:389:25-97
+393                <action android:name="android.bluetooth.device.action.ACL_CONNECTED" />
+393-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:391:17-88
+393-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:391:25-85
+394                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED" />
+394-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:392:17-91
+394-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:392:25-88
+395                <action android:name="android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED" />
+395-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:393:17-99
+395-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:393:25-96
+396            </intent-filter>
+397        </receiver>
+398        <receiver
+398-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:397:9-403:20
+399            android:name="nodomain.freeyourgadget.gadgetbridge.service.receivers.GBMusicControlReceiver"
+399-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:398:13-69
+400            android:exported="false" >
+400-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:399:13-37
+401            <intent-filter>
+401-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:400:13-402:29
+402                <action android:name="nodomain.freeyourgadget.gadgetbridge.musiccontrol" />
+402-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:401:17-92
+402-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:401:25-89
+403            </intent-filter>
+404        </receiver>
+405        <receiver
+405-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:404:9-410:20
+406            android:name="nodomain.freeyourgadget.gadgetbridge.service.receivers.GBCallControlReceiver"
+406-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:405:13-68
+407            android:exported="false" >
+407-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:406:13-37
+408            <intent-filter>
+408-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:407:13-409:29
+409                <action android:name="nodomain.freeyourgadget.gadgetbridge.callcontrol" />
+409-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:408:17-91
+409-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:408:25-88
+410            </intent-filter>
+411        </receiver>
+412        <receiver
+412-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:411:9-414:40
+413            android:name="nodomain.freeyourgadget.gadgetbridge.database.PeriodicExporter"
+413-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:412:13-54
+414            android:enabled="true"
+414-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:413:13-35
+415            android:exported="false" />
+415-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:414:13-37
+416        <!--
+417            forcing the DebugActivity to portrait mode avoids crashes with the progress
+418            dialog when changing orientation
+419        -->
+420        <activity
+420-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:419:9-424:57
+421            android:name="nodomain.freeyourgadget.gadgetbridge.activities.DebugActivity"
+421-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:420:13-53
+422            android:label="@string/title_activity_debug"
+422-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:421:13-57
+423            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2"
+423-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:422:13-69
+424            android:screenOrientation="portrait"
+424-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:423:13-49
+425            android:windowSoftInputMode="stateHidden" />
+425-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:424:13-54
+426        <activity
+426-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:425:9-429:57
+427            android:name="nodomain.freeyourgadget.gadgetbridge.activities.AboutActivity"
+427-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:426:13-53
+428            android:label="@string/about_activity_title"
+428-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:427:13-57
+429            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2"
+429-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:428:13-69
+430            android:windowSoftInputMode="stateHidden" />
+430-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:429:13-54
+431        <activity
+431-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:430:9-434:57
+432            android:name="nodomain.freeyourgadget.gadgetbridge.activities.OpenFwAppInstallerActivity"
+432-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:431:13-66
+433            android:label="@string/open_fw_installer_info_text_title"
+433-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:432:13-70
+434            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2"
+434-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:433:13-69
+435            android:windowSoftInputMode="stateHidden" />
+435-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:434:13-54
+436        <activity
+436-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:435:9-438:72
+437            android:name="nodomain.freeyourgadget.gadgetbridge.activities.BatteryInfoActivity"
+437-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:436:13-59
+438            android:label="@string/battery_detail_activity_title"
+438-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:437:13-66
+439            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+439-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:438:13-69
+440        <activity
+440-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:440:9-444:57
+441            android:name="nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummaryDetail"
+441-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:441:13-61
+442            android:label="@string/activity_summary_detail"
+442-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:442:13-60
+443            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummariesActivity"
+443-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:443:13-79
+444            android:windowSoftInputMode="stateHidden" />
+444-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:444:13-54
+445        <activity
+445-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:445:9-449:48
+446            android:name="nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummariesFilter"
+446-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:446:13-63
+447            android:excludeFromRecents="true"
+447-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:449:13-46
+448            android:label="@string/activity_filter_filter_title"
+448-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:447:13-65
+449            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummariesActivity" />
+449-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:448:13-79
+450        <activity
+450-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:451:9-455:57
+451            android:name="nodomain.freeyourgadget.gadgetbridge.activities.DataManagementActivity"
+451-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:452:13-62
+452            android:label="@string/title_activity_db_management"
+452-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:453:13-65
+453            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2"
+453-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:454:13-69
+454            android:windowSoftInputMode="stateHidden" />
+454-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:455:13-54
+455        <activity
+455-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:456:9-460:57
+456            android:name="nodomain.freeyourgadget.gadgetbridge.activities.NotificationManagementActivity"
+456-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:457:13-70
+457            android:label="@string/title_activity_notification_management"
+457-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:458:13-75
+458            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2"
+458-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:459:13-69
+459            android:windowSoftInputMode="stateHidden" />
+459-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:460:13-54
+460        <activity
+460-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:461:9-464:72
+461            android:name="nodomain.freeyourgadget.gadgetbridge.activities.DiscoveryActivity"
+461-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:462:13-57
+462            android:label="@string/title_activity_discovery"
+462-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:463:13-61
+463            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+463-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:464:13-69
+464        <activity
+464-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:465:9-467:70
+465            android:name="nodomain.freeyourgadget.gadgetbridge.activities.AndroidPairingActivity"
+465-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:466:13-62
+466            android:label="@string/title_activity_android_pairing" />
+466-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:467:13-67
+467        <activity
+467-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:468:9-472:72
+468            android:name="nodomain.freeyourgadget.gadgetbridge.devices.banglejs.AppsManagementActivity"
+468-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:469:13-68
+469            android:label="@string/title_activity_appmanager"
+469-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:470:13-62
+470            android:launchMode="singleTop"
+470-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:471:13-43
+471            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+471-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:472:13-69
+472        <activity
+472-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:473:9-475:70
+473            android:name="nodomain.freeyourgadget.gadgetbridge.devices.miband.MiBandPairingActivity"
+473-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:474:13-65
+474            android:label="@string/title_activity_mi_band_pairing" />
+474-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:475:13-67
+475        <activity
+475-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:476:9-478:69
+476            android:name="nodomain.freeyourgadget.gadgetbridge.devices.pebble.PebblePairingActivity"
+476-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:477:13-65
+477            android:label="@string/title_activity_pebble_pairing" />
+477-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:478:13-66
+478        <activity
+478-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:479:9-481:69
+479            android:name="nodomain.freeyourgadget.gadgetbridge.devices.watch9.Watch9PairingActivity"
+479-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:480:13-65
+480            android:label="@string/title_activity_watch9_pairing" />
+480-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:481:13-66
+481        <activity
+481-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:482:9-484:73
+482            android:name="nodomain.freeyourgadget.gadgetbridge.devices.watch9.Watch9CalibrationActivity"
+482-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:483:13-69
+483            android:label="@string/title_activity_watch9_calibration" />
+483-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:484:13-70
+484        <activity
+484-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:485:9-487:69
+485            android:name="nodomain.freeyourgadget.gadgetbridge.devices.lenovo.LenovoWatchPairingActivity"
+485-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:486:13-70
+486            android:label="@string/title_activity_watch9_pairing" />
+486-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:487:13-66
+487        <activity
+487-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:488:9-490:78
+488            android:name="nodomain.freeyourgadget.gadgetbridge.devices.lenovo.LenovoWatchCalibrationActivity"
+488-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:489:13-74
+489            android:label="@string/title_activity_LenovoWatch_calibration" />
+489-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:490:13-75
+490        <activity
+490-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:491:9-494:72
+491            android:name="nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsActivity"
+491-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:492:13-61
+492            android:label="@string/title_activity_charts"
+492-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:493:13-58
+493            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+493-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:494:13-69
+494        <activity
+494-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:495:9-498:72
+495            android:name="nodomain.freeyourgadget.gadgetbridge.activities.ConfigureAlarms"
+495-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:496:13-55
+496            android:label="@string/title_activity_set_alarm"
+496-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:497:13-61
+497            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+497-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:498:13-69
+498        <activity
+498-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:499:9-502:72
+499            android:name="nodomain.freeyourgadget.gadgetbridge.activities.ConfigureReminders"
+499-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:500:13-58
+500            android:label="@string/title_activity_set_reminders"
+500-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:501:13-65
+501            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+501-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:502:13-69
+502        <activity
+502-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:503:9-506:72
+503            android:name="nodomain.freeyourgadget.gadgetbridge.activities.ConfigureWorldClocks"
+503-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:504:13-60
+504            android:label="@string/pref_world_clocks_title"
+504-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:505:13-60
+505            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+505-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:506:13-69
+506        <activity
+506-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:507:9-510:72
+507            android:name="nodomain.freeyourgadget.gadgetbridge.activities.devicesettings.DeviceSettingsActivity"
+507-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:508:13-77
+508            android:label="@string/title_activity_device_specific_settings"
+508-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:509:13-76
+509            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+509-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:510:13-69
+510        <activity
+510-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:511:9-515:52
+511            android:name="nodomain.freeyourgadget.gadgetbridge.activities.AlarmDetails"
+511-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:512:13-52
+512            android:label="@string/title_activity_alarm_details"
+512-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:513:13-65
+513            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ConfigureAlarms"
+513-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:514:13-69
+514            android:screenOrientation="portrait" />
+514-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:515:13-49
+515        <activity
+515-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:516:9-521:58
+516            android:name="nodomain.freeyourgadget.gadgetbridge.activities.ReminderDetails"
+516-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:517:13-55
+517            android:label="@string/title_activity_reminder_details"
+517-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:518:13-68
+518            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ConfigureReminders"
+518-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:519:13-72
+519            android:screenOrientation="portrait"
+519-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:520:13-49
+520            android:windowSoftInputMode="adjustResize" />
+520-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:521:13-55
+521        <activity
+521-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:522:9-527:58
+522            android:name="nodomain.freeyourgadget.gadgetbridge.activities.WorldClockDetails"
+522-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:523:13-57
+523            android:label="@string/title_activity_world_clock_details"
+523-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:524:13-71
+524            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ConfigureWorldClocks"
+524-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:525:13-74
+525            android:screenOrientation="portrait"
+525-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:526:13-49
+526            android:windowSoftInputMode="adjustResize" />
+526-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:527:13-55
+527        <activity
+527-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:528:9-531:72
+528            android:name="nodomain.freeyourgadget.gadgetbridge.activities.VibrationActivity"
+528-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:529:13-57
+529            android:label="@string/title_activity_vibration"
+529-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:530:13-61
+530            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+530-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:531:13-69
+531        <activity
+531-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:532:9-536:67
+532            android:name="nodomain.freeyourgadget.gadgetbridge.activities.NotificationFilterActivity"
+532-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:533:13-66
+533            android:label="@string/title_activity_notification_filter"
+533-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:534:13-71
+534            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.AppBlacklistActivity"
+534-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:535:13-74
+535            android:windowSoftInputMode="stateHidden|adjustPan" />
+535-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:536:13-64
+536        <activity
+536-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:537:9-539:42
+537            android:name="nodomain.freeyourgadget.gadgetbridge.activities.FindPhoneActivity"
+537-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:538:13-57
+538            android:label="Find Phone" />
+538-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:539:13-39
+539
+540        <provider
+540-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:541:9-544:39
+541            android:name="nodomain.freeyourgadget.gadgetbridge.contentprovider.PebbleContentProvider"
+541-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:542:13-66
+542            android:authorities="@string/pebble_content_provider"
+542-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:543:13-66
+543            android:exported="true" />
+543-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:544:13-36
+544        <provider
+545            android:name="androidx.core.content.FileProvider"
+545-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:547:13-62
+546            android:authorities="nodomain.freeyourgadget.gadgetbridge.screenshot_provider"
+546-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:548:13-71
+547            android:exported="false"
+547-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:549:13-37
+548            android:grantUriPermissions="true" >
+548-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:550:13-47
+549            <meta-data
+549-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:551:13-553:56
+550                android:name="android.support.FILE_PROVIDER_PATHS"
+550-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:552:17-67
+551                android:resource="@xml/shared_paths" />
+551-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:553:17-53
+552        </provider>
+553
+554        <receiver
+554-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:556:9-567:20
+555            android:name="nodomain.freeyourgadget.gadgetbridge.SleepAlarmWidget"
+555-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:557:13-45
+556            android:label="@string/appwidget_sleep_alarm_widget_label" >
+556-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:558:13-71
+557            <intent-filter>
+557-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:559:13-562:29
+558                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+558-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:560:17-84
+558-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:560:25-81
+559                <action android:name="nodomain.freeyourgadget.gadgetbridge.SLEEP_ALARM_WIDGET_CLICK" />
+559-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:561:17-104
+559-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:561:25-101
+560            </intent-filter>
+561
+562            <meta-data
+562-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:564:13-566:67
+563                android:name="android.appwidget.provider"
+563-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:565:17-58
+564                android:resource="@xml/sleep_alarm_widget_info" />
+564-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:566:17-64
+565        </receiver>
+566        <receiver
+566-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:568:9-581:20
+567            android:name="nodomain.freeyourgadget.gadgetbridge.Widget"
+567-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:569:13-35
+568            android:label="@string/widget_listing_label" >
+568-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:570:13-57
+569            <intent-filter>
+569-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:571:13-576:29
+570                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+570-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:560:17-84
+570-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:560:25-81
+571                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+571-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:573:17-85
+571-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:573:25-82
+572                <action android:name="android.appwidget.action.APPWIDGET_DISABLED" />
+572-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:574:17-86
+572-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:574:25-83
+573                <action android:name="nodomain.freeyourgadget.gadgetbridge.WidgetClick" />
+573-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:575:17-91
+573-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:575:25-88
+574            </intent-filter>
+575
+576            <meta-data
+576-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:564:13-566:67
+577                android:name="android.appwidget.provider"
+577-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:565:17-58
+578                android:resource="@xml/widget_info" />
+578-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:566:17-64
+579        </receiver>
+580
+581        <activity
+581-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:583:9-587:67
+582            android:name="nodomain.freeyourgadget.gadgetbridge.activities.WidgetAlarmsActivity"
+582-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:584:13-60
+583            android:excludeFromRecents="true"
+583-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:585:13-46
+584            android:launchMode="singleInstance"
+584-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:586:13-48
+585            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+585-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:587:13-64
+586        <activity android:name="nodomain.freeyourgadget.gadgetbridge.activities.WidgetConfigurationActivity" >
+586-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:589:9-593:20
+586-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:589:19-73
+587            <intent-filter>
+587-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:590:13-592:29
+588                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+588-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:591:17-86
+588-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:591:25-84
+589            </intent-filter>
+590        </activity>
+591        <activity android:name="nodomain.freeyourgadget.gadgetbridge.activities.SleepAlarmWidgetConfigurationActivity" >
+591-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:595:9-599:20
+591-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:595:19-83
+592            <intent-filter>
+592-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:590:13-592:29
+593                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+593-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:591:17-86
+593-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:591:25-84
+594            </intent-filter>
+595        </activity>
+596        <activity
+596-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:601:9-620:20
+597            android:name="nodomain.freeyourgadget.gadgetbridge.activities.ExternalPebbleJSActivity"
+597-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:602:13-64
+598            android:allowTaskReparenting="true"
+598-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:603:13-48
+599            android:clearTaskOnLaunch="true"
+599-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:604:13-45
+600            android:label="@string/app_configure"
+600-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:605:13-50
+601            android:launchMode="singleTask"
+601-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:606:13-44
+602            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.appmanager.AppManagerActivity" >
+602-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:607:13-83
+603            <meta-data
+603-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:608:13-610:99
+604                android:name="android.support.PARENT_ACTIVITY"
+604-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:609:17-63
+605                android:value="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+605-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:610:17-96
+606
+607            <intent-filter>
+607-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:612:13-619:29
+608                <action android:name="android.intent.action.VIEW" />
+608-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:139:17-69
+608-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:139:25-66
+609
+610                <category android:name="android.intent.category.DEFAULT" />
+610-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:82:17-76
+610-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:82:27-73
+611                <category android:name="android.intent.category.BROWSABLE" />
+611-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:616:17-78
+611-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:616:27-75
+612
+613                <data android:scheme="gadgetbridge" />
+613-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+613-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:147:23-44
+614            </intent-filter>
+615        </activity>
+616        <activity
+616-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:622:9-626:72
+617            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.ConfigActivity"
+617-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:623:13-59
+618            android:exported="true"
+618-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:625:13-36
+619            android:label="@string/qhybrid_title_watchface"
+619-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:624:13-60
+620            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+620-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:626:13-69
+621        <activity
+621-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:627:9-631:76
+622            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.QHybridAppChoserActivity"
+622-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:628:13-69
+623            android:exported="true"
+623-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:630:13-36
+624            android:label="@string/qhybrid_title_apps"
+624-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:629:13-55
+625            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.ConfigActivity" />
+625-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:631:13-73
+626        <activity
+626-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:632:9-636:72
+627            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HRConfigActivity"
+627-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:633:13-61
+628            android:exported="true"
+628-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:635:13-36
+629            android:label="@string/qhybrid_title_watchface"
+629-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:634:13-60
+630            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+630-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:636:13-69
+631        <activity
+631-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:637:9-639:78
+632            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.WidgetSettingsActivity"
+632-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:637:19-73
+633            android:label="@string/add_widget"
+633-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:638:13-47
+634            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HRConfigActivity" />
+634-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:639:13-75
+635        <activity
+635-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:640:9-644:78
+636            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.ImageEditActivity"
+636-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:641:13-62
+637            android:exported="true"
+637-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:643:13-36
+638            android:label="@string/qhybrid_title_background_image"
+638-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:642:13-67
+639            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HRConfigActivity" />
+639-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:644:13-75
+640        <activity
+640-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:645:9-649:77
+641            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.FileManagementActivity"
+641-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:646:13-67
+642            android:exported="true"
+642-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:648:13-36
+643            android:label="@string/qhybrid_title_file_management"
+643-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:647:13-66
+644            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HRConfigActivity" />
+644-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:649:13-75
+645        <activity
+645-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:650:9-654:78
+646            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.AppsManagementActivity"
+646-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:651:13-67
+647            android:exported="true"
+647-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:653:13-36
+648            android:label="@string/qhybrid_title_apps_management"
+648-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:652:13-66
+649            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HRConfigActivity" />
+649-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:654:13-75
+650        <activity
+650-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:655:9-658:78
+651            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.CalibrationActivity"
+651-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:656:13-64
+652            android:label="@string/qhybrid_title_calibration"
+652-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:657:13-62
+653            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HRConfigActivity" />
+653-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:658:13-75
+654        <activity
+654-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:659:9-662:78
+655            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.CommuteActionsActivity"
+655-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:660:13-67
+656            android:label="@string/qhybrid_pref_title_actions"
+656-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:661:13-63
+657            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HRConfigActivity" />
+657-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:662:13-75
+658        <activity
+658-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:663:9-668:86
+659            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceDesignerActivity"
+659-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:664:13-78
+660            android:label="@string/qhybrid_title_watchface_designer"
+660-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:665:13-69
+661            android:launchMode="singleTop"
+661-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:667:13-43
+662            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.appmanager.AppManagerActivity"
+662-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:668:13-83
+663            android:screenOrientation="portrait" />
+663-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:666:13-49
+664        <activity
+664-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:669:9-672:95
+665            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceSettingsActivity"
+665-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:670:13-78
+666            android:label="@string/watchface_dialog_title_settings"
+666-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:671:13-68
+667            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceDesignerActivity" />
+667-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:672:13-92
+668        <activity
+668-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:673:9-676:95
+669            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceWidgetActivity"
+669-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:674:13-76
+670            android:label="@string/watchface_dialog_title_widget"
+670-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:675:13-66
+671            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceDesignerActivity" />
+671-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:676:13-92
+672        <activity
+672-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:678:9-680:39
+673            android:name="nodomain.freeyourgadget.gadgetbridge.devices.um25.Activity.DataActivity"
+673-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:679:13-63
+674            android:exported="true" />
+674-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:680:13-36
+675        <activity
+675-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:682:9-684:39
+676            android:name="nodomain.freeyourgadget.gadgetbridge.devices.supercars.ControlActivity"
+676-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:683:13-62
+677            android:exported="true" />
+677-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:684:13-36
+678        <activity
+678-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:686:9-688:39
+679            android:name="nodomain.freeyourgadget.gadgetbridge.devices.binary_sensor.activity.DataActivity"
+679-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:687:13-72
+680            android:exported="true" />
+680-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:688:13-36
+681        <activity
+681-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:690:9-701:20
+682            android:name="nodomain.freeyourgadget.gadgetbridge.activities.GpxReceiverActivity"
+682-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:691:13-59
+683            android:label="@string/gpx_receiver_activity_title"
+683-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:692:13-64
+684            android:screenOrientation="portrait"
+684-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:693:13-49
+685            android:windowSoftInputMode="stateHidden" >
+685-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:694:13-54
+686            <intent-filter>
+686-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:695:13-700:29
+687                <action android:name="android.intent.action.SEND" />
+687-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:329:17-69
+687-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:329:25-66
+688                <action android:name="android.intent.action.SEND_MULTIPLE" />
+688-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:697:17-78
+688-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:697:25-75
+689
+690                <category android:name="android.intent.category.DEFAULT" />
+690-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:82:17-76
+690-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:82:27-73
+691
+692                <data android:mimeType="*/*" />
+692-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:17-48
+692-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:143:23-45
+693            </intent-filter>
+694        </activity>
+695        <activity
+695-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:703:9-706:20
+696            android:name="nodomain.freeyourgadget.gadgetbridge.activities.WakeActivity"
+696-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:704:13-52
+697            android:label="WakeActivity" >
+697-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:705:13-41
+698        </activity>
+699        <activity
+699-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:708:9-711:38
+700            android:name="nodomain.freeyourgadget.gadgetbridge.externalevents.opentracks.OpenTracksController"
+700-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:709:13-75
+701            android:exported="true"
+701-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:711:13-36
+702            android:label="OpenTracks controller and intent receiver" />
+702-->C:\Users\yerzh\AndroidStudioProjects\DABYLupd\app\src\main\AndroidManifest.xml:710:13-70
+703
+704        <provider
+704-->[com.squareup.picasso:picasso:2.71828] C:\Users\yerzh\.gradle\caches\transforms-3\301f7768c885b3501fe54c09d65130c6\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+705            android:name="com.squareup.picasso.PicassoProvider"
+705-->[com.squareup.picasso:picasso:2.71828] C:\Users\yerzh\.gradle\caches\transforms-3\301f7768c885b3501fe54c09d65130c6\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+706            android:authorities="nodomain.freeyourgadget.gadgetbridge.com.squareup.picasso"
+706-->[com.squareup.picasso:picasso:2.71828] C:\Users\yerzh\.gradle\caches\transforms-3\301f7768c885b3501fe54c09d65130c6\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+707            android:exported="false" />
+707-->[com.squareup.picasso:picasso:2.71828] C:\Users\yerzh\.gradle\caches\transforms-3\301f7768c885b3501fe54c09d65130c6\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+708    </application>
+709
+710</manifest>

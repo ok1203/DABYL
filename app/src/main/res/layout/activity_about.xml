@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/about_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/about_margin"
+        android:paddingRight="@dimen/about_margin"
+        tools:context="nodomain.freeyourgadget.gadgetbridge.activities.AboutActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/about_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/accent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/about_margin"
+                android:paddingRight="@dimen/about_margin">
+
+
+                <TextView
+                    android:id="@+id/about_hash"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/links_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_links"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/accent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/about_margin"
+                android:paddingRight="@dimen/about_margin">
+
+                <TextView
+                    android:id="@+id/links1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/homepage_url" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/contrib_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_contributors"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/accent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/about_margin"
+                android:paddingRight="@dimen/about_margin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/about_margin"
+                    android:paddingRight="@dimen/about_margin">
+
+                    <TextView
+                        android:id="@+id/contrib_core_members"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/about_core_team_members" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="20dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp">
+    <com.denzcoskun.imageslider.ImageSlider
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageSlider"
+        app:iss_period="1000"
+        app:iss_auto_cycle="true"
+        app:iss_delay="1000"
+        app:iss_corner_radius="20"
+        app:iss_no_dots="true"
+        app:iss_title_background="@drawable/yerzhan"/>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
